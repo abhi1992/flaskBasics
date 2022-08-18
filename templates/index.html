@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Editor</title>
+    <link href="./../static/bootstrap.min.css" rel="stylesheet">
+    <link href="./../static/index.css" rel="stylesheet">
+  </head>
+  <body class="backBlue">
+    <div class="card card-ui">
+      <div class="card-body center">
+        <div class="row">
+          <div class="tools col-lg-12 col-md-12">
+            <a id="blur" class="btn btn-primary" href="#" role="button">Blur</a>
+          </div>
+          <div class="col-lg-12 col-sm-12">
+            <div class="row padding50 center">
+              <div class="col-lg-12 marginTop20 padding20 canvas-container center">
+                <img id="img" src="" class="hide center"/>
+                <div id="canvasWrapper">
+                  <canvas id="overlay" width=800 height=800></canvas>
+                  <canvas id="canvas" width=800 height=800></canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-12 marginTop20 padding20">
+              <div>
+                <label for="image-file" class="form-label">Upload Image</label>
+                <input class="form-control form-control-lg" id="image-file" type="file">
+              </div>
+            </div>
+            <div class="col-lg-12 marginTop20 padding20">
+              <a onclick="load_image()" id="load-image" class="btn btn-primary" href="#" role="button">Load</a>
+              <a id="apply" class="btn btn-primary" href="#" role="button">Apply</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./../static/bootstrap.bundle.min.js"></script>
+    <script src="./../static/index.js"></script>
+  </body>
+</html>

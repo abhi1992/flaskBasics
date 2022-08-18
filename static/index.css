@@ -1,0 +1,46 @@
+.padding20 {
+    padding: 20px;
+}
+
+.padding50 {
+    padding: 50px;
+}
+
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.card-ui {
+    margin: 50px;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.backBlue {
+    background-color: #3949ab;
+}
+
+.tools {
+    background-color: #ff4081;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.canvas-container {
+    width: 800px;
+    height: 800px;
+}
+
+canvas{
+    border: 1px solid red;
+    position: absolute;
+}
+#canvasWrapper{
+    position:relative;
+}
