@@ -1,0 +1,12 @@
+1. Add a button to the title bar to enable / disable the drag on blue box getting created.
+
+2. Add a Map in javascript to store all the rectangles and create a global single 
+function that takes all of the list and the image if there, and first draws the image to the 
+canvas then draws the squares on the canvas starting from index 0-n.
+
+3. Button to redo/undo the boxes. (Mark as deleted).
+
+4. Text Box to send the no of iterations of the blur algo.
+
+5. Create an endpoint and hook it up with the apply button.
+
